@@ -1,0 +1,27 @@
+[[flux_core]]
+arch = "aarch64"
+git-tree-sha1 = "c67085c731a69278f11857a31b30ddb8e3739866"
+libc = "glibc"
+os = "linux"
+
+    [[flux_core.download]]
+    sha256 = "084bc0626068bdbea92076aa3034b5496e1e11cb528b2a58685bd39b86bb540c"
+    url = "https://github.com/JuliaBinaryWrappers/flux_core_jll.jl/releases/download/flux_core-v0.23.1+0/flux_core.v0.23.1.aarch64-linux-gnu.tar.gz"
+[[flux_core]]
+arch = "powerpc64le"
+git-tree-sha1 = "36fad33c5dd7586b3e14ba08763761f97dfc2191"
+libc = "glibc"
+os = "linux"
+
+    [[flux_core.download]]
+    sha256 = "d5c93502723e3d7d805797ffcb1faf6ca253b4ff9254b8c93cc91ba84bf7ce07"
+    url = "https://github.com/JuliaBinaryWrappers/flux_core_jll.jl/releases/download/flux_core-v0.23.1+0/flux_core.v0.23.1.powerpc64le-linux-gnu.tar.gz"
+[[flux_core]]
+arch = "x86_64"
+git-tree-sha1 = "a165ec9f736d09a2fd95aa360a79248e41b3ecbb"
+libc = "glibc"
+os = "linux"
+
+    [[flux_core.download]]
+    sha256 = "c5553c92b5463272d2d890abc7d06a2c6e4188b1b3bd7b681d83c03e317a38ed"
+    url = "https://github.com/JuliaBinaryWrappers/flux_core_jll.jl/releases/download/flux_core-v0.23.1+0/flux_core.v0.23.1.x86_64-linux-gnu.tar.gz"
